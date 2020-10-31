@@ -3,9 +3,12 @@ Run this file in python to automate the process of Recording a Zoom Meeting as a
 ===================================
 #Setup
 ========================================
-Edit ```link``` to the link of your meeting
+Edit ```link``` to the link of your meeting<br>
 Here :
 ```
+pyautogui.hotkey('ctrl', 'l')
+pyautogui.write('<link> \n')
+time.sleep(10)
 ```
 #Modules Required
 ====================================
